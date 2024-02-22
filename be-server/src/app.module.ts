@@ -12,7 +12,7 @@ import { TasksModule } from './tasks/tasks.module';
       port: 5432,
       username: 'postgres',
       password: '1234',
-      database: 'postgres',
+      database: 'sils',
       entities: [__dirname + '/**/*.entity{.ts,.js}'], // 엔티티 파일 위치
       synchronize: true, // 개발 환경에서만 사용 권장
     }),

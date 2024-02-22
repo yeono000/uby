@@ -4,7 +4,7 @@
     "port": 5432,
     "username": "postgres",
     "password": "1234",
-    "database": "postgres",
+    "database": "sils",
     "entities": ["dist/**/*.entity{.ts,.js}"],
     "synchronize": true
 }
