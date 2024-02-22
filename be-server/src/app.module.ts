@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { TasksModule } from './tasks/tasks.module';
+import { CarsModule } from './cars/cars.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { TasksModule } from './tasks/tasks.module';
       synchronize: true, // 개발 환경에서만 사용 권장
     }),
     TasksModule,
+    CarsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
